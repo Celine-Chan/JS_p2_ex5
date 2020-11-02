@@ -1,28 +1,30 @@
-let day = 6;
+// let day = 6;
+let day = prompt('Saisissez un nombre entre 1 et 7 :');
 
-switch (day) {
+switch (parseInt(day)) {
     case 1:
-        alert('Lundi')
+        alert('Lundi');
         break;
     case 2:
-        alert('Mardi')
+        alert('Mardi');
         break;
     case 3:
-        alert('Mercredi')
+        alert('Mercredi');
         break;
     case 4:
-        alert('Jeudi')
+        alert('Jeudi');
         break;
     case 5:
-        alert('Vendredi')
+        alert('Vendredi');
         break;
     case 6:
-        alert('Samedi')
+        alert('Samedi');
         break;
     case 7:
-        alert('Dimanche')
+        alert('Dimanche');
         break;
 
     default:
+        alert('Ce n\'est pas un jour de la semaine');
         break;
 }
